@@ -13,7 +13,7 @@ WIDTH = str(30)
 HEIGHT = str(30)
 DEFAULT_NEG = 1000
 DEFAULT_POS = 500
-DEFAULT_STAGES = str(5)
+DEFAULT_STAGES = str(20)
 USE_USER_IMG_NUM = False
 
 if getOption("width") != None:

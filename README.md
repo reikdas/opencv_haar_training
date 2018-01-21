@@ -23,12 +23,14 @@ In the above command, a number of the settings for the trainer are being specifi
 As an example, lets assume we have 1000 positive images of an apple (images that contain an apple) and 2200 negative images (images that don't contain an apple). All the positive images are sized 50x50 (width x height) and all negative images are 20x20 (width x height). In addition, lets assume that we have a powerful computer that has a strong CPU. The following would be a good set of parameters to provide the trainer with:
 
 ```
-python3 train.py --width 10 --height 10 ---images 900
+ython3 train.py --width 50 --height 50 --images 1000
 ```
 
 Note that although we have 1000 positive images, I only used 900. This is to provide the trainer with a few extras in the event they are needed.
 
 The final generated cascade will be located in the *haarcascade* directory.
+
+The default number of stages is 20.
 
 ## System Requirements
 
